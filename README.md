@@ -13,7 +13,7 @@ Webhook and socket support to interact with the LCC (Labb Chat Client) and Pega 
 - leave `Root directory` empty
 - Runtime should be `Node`
 - Build command should be `yarn`
-- Start command should be `yarn start`
+- Start command should be `node index.js`
 - Select the `Free` option
 5. Pay special attention to `Environment variables`. This can easily be changed later on when the service is setup and deployed. Once it's changed, the service will automatically restart and the new environment variables will be in place.
 - Key: ALLOWED_ORIGIN - Value of the URL to the LCC (Labb Chat Client)

@@ -39,6 +39,9 @@ const initSocket = (httpServer, customerSocketMap) => {
           },
           { headers }
         );
+
+        // Log the HTTP status code
+        console.log('External API HTTP Status:', externalApiResponse.status);
   
       } catch (error) {
         console.error('Error forwarding request to external API:', error.message);

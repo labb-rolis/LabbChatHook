@@ -44,8 +44,6 @@ async function generateJWT() {
 
     const signedToken = `${token}.${encodedSignature}`;
 
-    console.log('Generated JWT: ', signedToken);
-
     return signedToken;
 }
 
